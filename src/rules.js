@@ -83,8 +83,8 @@ function Rules() {
         (visible) && (
           <div className="rules-modal">
             <h2>Rules</h2>
-            <img src="./images/image-rules.svg" alt="Game Rules" />
-            <img className="close-button" onClick={handleToggleClick} src="./images/icon-close.svg" alt="Close the game rules" />
+            <img src="./rock-paper-scissors-react/images/image-rules.svg" alt="Game Rules" />
+            <img className="close-button" onClick={handleToggleClick} src="./rock-paper-scissors-react/images/icon-close.svg" alt="Close the game rules" />
           </div>
         )
       }
